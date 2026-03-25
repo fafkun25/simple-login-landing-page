@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="simple login.css">
+  <title>Simple Login</title>
+  <!-- <style>
+    body { font-family: Arial, sans-serif; padding: 30px; }
+    .box { max-width: 320px; padding: 16px; border: 1px solid #ccc; border-radius: 10px; }
+    input { width: 100%; padding: 10px; margin: 8px 0; }
+    button { width: 100%; padding: 10px; cursor: pointer; }
+    #message { margin-top: 12px; font-weight: bold; }
+  </style> -->
+</head>
+<body>
+    <div class="box">
+        <h2>Login</h2>
+
+        <div class="username">
+            <label>Username :</label>
+            <input id="username" type="text" placeholder="Enter username" />
+        </div>
+
+        <div class="password">
+            <label>Password :</label>
+            <input id="password" type="password" placeholder="Enter password" />
+        </div>
+
+        <!-- <div class="btn"> -->
+          <button class="btn" id="loginBtn">Login</button>
+        <!-- </div> -->
+
+
+        <p id="message">Please Login</p>
+    </div>
+
+  <script src="simple login.js"></script>
+</body>
+</html>
